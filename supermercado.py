@@ -1,20 +1,3 @@
-"""
-Sistema de Caixa de Supermercado (PDV)
----------------------------------------
-Aplicação simples de ponto de venda feita com tkinter.
-
-Funcionalidades:
-- Cadastro rápido de produtos na venda (código, nome, preço, quantidade)
-- Lista de itens do carrinho com subtotal por item
-- Cálculo automático do total da compra
-- Aplicação de desconto (em R$ ou %)
-- Registro da forma de pagamento e cálculo de troco (dinheiro)
-- Finalizar venda (limpa o carrinho) e Cancelar venda
-- Atalhos de teclado para agilizar o uso no caixa
-
-Basta executar: python3 caixa_supermercado.py
-"""
-
 import tkinter as tk
 from tkinter import ttk, messagebox
 from datetime import datetime
